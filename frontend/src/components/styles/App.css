@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+}
+
+header span {
+  color: #e8f0f7;
+}
+
+.sign-in {
+  max-width: 200px;
+  max-height: 200px;
+  cursor: pointer;
+}
+
+.nav-links {
+  flex-grow: 1;
+}
+
+.nav-link {
+  color: #8899a6;
+  font-size: 16px;
+  align-self: center;
+  margin: 0 5px;
+  font-weight: 700;
+}
+
+.nav-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  color: #f231a5;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 980px) {
+  .nav-links {
+    display: none;
+  }
+
+  .nav-title {
+    display: inline-flex;
+  }
+
+  .appbar {
+    align-items: center;
+  }
+
+  .toolbar {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+  }
+}
